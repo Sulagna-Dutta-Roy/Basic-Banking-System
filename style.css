@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZLAVFOmOECSXylpqrhAKlgc2ojTtQJVo79Q&usqp=CAU) center center fixed;
+    box-sizing: border-box;
+}
+#nav-bar
+{
+	top:0;
+	float:left;
+}
+.nav-link:hover{
+    background-color:grey;
+}
+.navbar
+{
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+	height:50px;
+    float: left;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color:#fff !important;
+    font-weight:600;
+    float:right;
+    text-align:left;
+}
+.fa-bars
+{
+	color:#fff;
+	font-size:30px !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+#main
+{
+	text-align: center;
+    color:#fff;
+    padding-top: 5%;
+}
+.container h1 {
+    color: #fff;
+    font-size: 45px;
+    padding-top: 10px;
+}
+.container h2{
+    color: #fff;
+}
+.container h2 img {
+	padding-bottom: 30px;
+    color: #fff;
+}
+.container h3 {
+    font-size: 30px;
+}
+#features1
+{
+	text-align: center;
+	padding: 10% 15%;
+    background-color: #fff;
+}
+ #features
+ {
+     text-align: center;
+	 padding: 10% 15%; 
+ }
+.features1 h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+.title::before
+{
+    background-color: #fff;
+	content:'';
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+    background-color: #fff;
+	content:'';
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+    color: dimgray;
+}
+/* Action*/
+#action{
+    background-color: black;
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+  }
+.main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+#footer{
+    padding: 5% 25%;
+    text-align: center;
+    color: #fff;
+}
